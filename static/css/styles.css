@@ -219,3 +219,71 @@ nav a {
     font-size: 16px;
     font-family:'Times New Roman', Times, serif;
 }
+
+/*Section Register*/
+
+.section-register{
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top:50px ;
+  background: linear-gradient(#f5f7fa, #b8c6db);
+  justify-content: space-around;
+}
+
+.text-register-section{
+  width: 45%;
+  padding: 60px;
+}
+
+.text-register-section h3{
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-register-section p{
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.text-register-section .btn-register{
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
+  padding: 8px;
+  border: 1.5px solid black;
+}
+
+.text-register-section .btn-register a{
+  text-decoration: none;
+}
+
+.images-register-section{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.images-register-section span{
+  margin:8px;
+}
+
+.images-register-section img{
+  border-radius: 5px;
+}
+
+
+/*Section footer*/
+
+footer{
+  background-color:#706f8b ;
+  margin-top: 1px;
+  padding: 8px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
