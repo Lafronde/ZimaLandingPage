@@ -16,9 +16,9 @@
     <nav class="mynavbar">
         <ul>
           <a href="#"><img src="static/img/zimawareLogo.jpg" width="48px" ></a>
-          <li><a href="#">speakers</a></li>
-          <li><a href="#">schedule</a></li>
-          <li><a href="#">registration</a></li>
+          <li><a href="#anchorSpeakers">speakers</a></li>
+          <li><a href="#anchorSchedule">schedule</a></li>
+          <li><a href="#anchorRegister">registration</a></li>
        </ul>
     </nav>
 
@@ -36,7 +36,7 @@
     </div>
 
     <!--Section speakers-->
-    <div class="section-speakers">
+    <div class="section-speakers" id="anchorSpeakers">
       <div class="box-text">
         <hr>
         <h3>Speakers</h3>
@@ -80,12 +80,12 @@
 
     <!--Section schedule-->
     
-    <div class="schedule">
+    <div class="schedule" id="anchorSchedule">
       <div class="table-time">
         <div class="menu-days">
-          <a onclick="showSchedule('cwrapper1')">Day 1</a>
-          <a onclick="showSchedule('cwrapper2')">Day 2</a>
-          <a onclick="showSchedule('cwrapper3')">Day 3</a>
+          <a class="mymenu" id="cwrapper10" onclick="showSchedule('cwrapper1')">Day 1</a>
+          <a class="mymenu" id="cwrapper21" onclick="showSchedule('cwrapper2')">Day 2</a>
+          <a class="mymenu" id="cwrapper32" onclick="showSchedule('cwrapper3')">Day 3</a>
         </div>
                         <!--schedule for day1-->
         <div class="content-unite-wrapper" id="cwrapper1">
@@ -264,7 +264,7 @@
 
     <!--Section Register-->
 
-    <div class="section-register">
+    <div class="section-register" id="anchorRegister">
       <div class="text-register-section">
         <h3>Registration</h3>
         <p>
@@ -284,6 +284,10 @@
         
       </div>
     </div>
+
+
+    <!--Go to the top-->
+    <button onclick="topFunction()" id="myBtn" title="Return to header">Top</button>
 
     <!--Footer page-->
     <footer>
